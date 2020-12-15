@@ -1,7 +1,7 @@
 # Nikolai Demchenko
 ## Contact Info
 * nikollaidemchenko@gmail.com
-* +375 (29) 8100005
+* **+375 (29) 8100005**
 * github.com/nikolaidemchenko
 ## Summary
 I am single-minded in achieving my goals, 
