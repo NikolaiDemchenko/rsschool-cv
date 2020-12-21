@@ -1,0 +1,241 @@
+* {
+    font-family: Arial, Futura, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+header {
+
+    max-width: 1024px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: rgb(223, 223, 223);
+    margin: 5px auto 0px auto;
+    border-top: 2px solid black ;
+    border-left: 2px solid black ;
+    border-right: 2px solid black ;
+}
+
+main {
+
+    max-width: 1024px;
+    background-color: rgb(223, 223, 223);
+    border-left: 2px solid black ;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black ;
+    margin: 0 auto 5px auto;
+}
+.mail {
+
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.mail img {
+
+    margin-right: 8px;
+}
+
+.tel {
+
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.tel img {
+
+    margin-right: 8px;
+}
+
+.github {
+
+    margin-left: 30px;
+}
+
+.github img {
+
+    margin-right: 8px;
+}
+h1 {
+
+    height: 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+a:visited {
+    
+    color: green;
+}
+
+a:hover {
+
+    font-size: 19px;
+}
+.objective {
+
+    background-color: gray;
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.photo {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+h2 {
+
+    padding-top: 15px;
+}
+
+.summary {
+
+    margin-left: 30px;
+}
+
+.summary-info {
+
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.name-of-skills span {
+
+    color:white;
+    font-weight: bold;
+    background-color:green;
+    border-radius: 5px;
+    margin-right: 5px;
+
+}
+
+
+.eng {
+
+    background-color: rgb(91, 53, 226);
+    width: 97px;
+    border-radius: 2px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+li::marker {
+
+    color: yellow;
+}
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.code-exapmles {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.code-exapmles p {
+
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.code-exapmles a {
+
+    margin: 0;
+}
+
+.education {
+
+    width: 550px;
+}
+
+.education li {
+
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.name-of-skills {
+
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.interests p {
+
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 990px) {
+
+    * {
+
+        font-size: 14px;
+    }
+
+    h1 {
+
+        font-size: 30px;
+    }
+    header {
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .summary h2 {
+
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .info {
+
+        display: block;
+    }
+
+    .interests p {
+
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    header {
+
+        min-width: 535px;
+    }
+
+    main {
+
+        min-width: 535px;
+    }
+}
